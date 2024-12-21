@@ -1,0 +1,15 @@
+{
+  "originHash" : "962c9119f46376c02f033fa921944d5d3560f01d204cd9b571cf8470b0da7021",
+  "pins" : [
+    {
+      "identity" : "feat_ocr",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/netcanis/feat_ocr.git",
+      "state" : {
+        "revision" : "6f669ccb03d83f5bb9ae07349ce9872d3668b2f4",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
