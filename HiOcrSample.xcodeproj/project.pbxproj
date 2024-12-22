@@ -117,7 +117,6 @@
 			);
 			name = HiOcrSample;
 			packageProductDependencies = (
-				483EE9A92D165EBF00332AB7 /* feat_ocr_engine */,
 				486FB8C52D16E00400B3C147 /* feat_ocr */,
 			);
 			productName = HiOcrSample;
@@ -593,16 +592,12 @@
 			repositoryURL = "https://github.com/netcanis/feat_ocr.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
+				minimumVersion = 1.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		483EE9A92D165EBF00332AB7 /* feat_ocr_engine */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = feat_ocr_engine;
-		};
 		486FB8C52D16E00400B3C147 /* feat_ocr */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 486FB8C42D16E00400B3C147 /* XCRemoteSwiftPackageReference "feat_ocr" */;

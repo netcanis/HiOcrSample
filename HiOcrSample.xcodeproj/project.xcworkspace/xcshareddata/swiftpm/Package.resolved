@@ -6,8 +6,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/netcanis/feat_ocr.git",
       "state" : {
-        "revision" : "6f669ccb03d83f5bb9ae07349ce9872d3668b2f4",
-        "version" : "1.0.2"
+        "revision" : "bc95c7f87c5d70342f2e49411421cf54694668a3",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "feat_util",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/netcanis/feat_util.git",
+      "state" : {
+        "revision" : "aee65efba50cde7dd51f376dd78b1569eb140d2f",
+        "version" : "1.0.1"
       }
     }
   ],
