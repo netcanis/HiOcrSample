@@ -1,0 +1,24 @@
+{
+  "originHash" : "962c9119f46376c02f033fa921944d5d3560f01d204cd9b571cf8470b0da7021",
+  "pins" : [
+    {
+      "identity" : "feat_ocr",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/netcanis/feat_ocr.git",
+      "state" : {
+        "revision" : "bc95c7f87c5d70342f2e49411421cf54694668a3",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "feat_util",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/netcanis/feat_util.git",
+      "state" : {
+        "revision" : "aee65efba50cde7dd51f376dd78b1569eb140d2f",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486FB8C62D16E00400B3C147 /* feat_ocr in Frameworks */ = {isa = PBXBuildFile; productRef = 486FB8C52D16E00400B3C147 /* feat_ocr */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		483EE98C2D165E5900332AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483EE9732D165E5800332AB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483EE97A2D165E5800332AB7;
+			remoteInfo = HiOcrSample;
+		};
+		483EE9962D165E5900332AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483EE9732D165E5800332AB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483EE97A2D165E5800332AB7;
+			remoteInfo = HiOcrSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		483EE97B2D165E5800332AB7 /* HiOcrSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiOcrSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		483EE98B2D165E5900332AB7 /* HiOcrSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiOcrSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		483EE9952D165E5900332AB7 /* HiOcrSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiOcrSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		483EE97D2D165E5800332AB7 /* HiOcrSample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HiOcrSample;
+			sourceTree = "<group>";
+		};
+		483EE98E2D165E5900332AB7 /* HiOcrSampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HiOcrSampleTests;
+			sourceTree = "<group>";
+		};
+		483EE9982D165E5900332AB7 /* HiOcrSampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HiOcrSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		483EE9782D165E5800332AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486FB8C62D16E00400B3C147 /* feat_ocr in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483EE9882D165E5900332AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483EE9922D165E5900332AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483EE9722D165E5800332AB7 = {
+			isa = PBXGroup;
+			children = (
+				483EE97D2D165E5800332AB7 /* HiOcrSample */,
+				483EE98E2D165E5900332AB7 /* HiOcrSampleTests */,
+				483EE9982D165E5900332AB7 /* HiOcrSampleUITests */,
+				483EE97C2D165E5800332AB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		483EE97C2D165E5800332AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				483EE97B2D165E5800332AB7 /* HiOcrSample.app */,
+				483EE98B2D165E5900332AB7 /* HiOcrSampleTests.xctest */,
+				483EE9952D165E5900332AB7 /* HiOcrSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		483EE97A2D165E5800332AB7 /* HiOcrSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483EE99F2D165E5900332AB7 /* Build configuration list for PBXNativeTarget "HiOcrSample" */;
+			buildPhases = (
+				483EE9772D165E5800332AB7 /* Sources */,
+				483EE9782D165E5800332AB7 /* Frameworks */,
+				483EE9792D165E5800332AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				483EE97D2D165E5800332AB7 /* HiOcrSample */,
+			);
+			name = HiOcrSample;
+			packageProductDependencies = (
+				486FB8C52D16E00400B3C147 /* feat_ocr */,
+			);
+			productName = HiOcrSample;
+			productReference = 483EE97B2D165E5800332AB7 /* HiOcrSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		483EE98A2D165E5900332AB7 /* HiOcrSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483EE9A22D165E5900332AB7 /* Build configuration list for PBXNativeTarget "HiOcrSampleTests" */;
+			buildPhases = (
+				483EE9872D165E5900332AB7 /* Sources */,
+				483EE9882D165E5900332AB7 /* Frameworks */,
+				483EE9892D165E5900332AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483EE98D2D165E5900332AB7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				483EE98E2D165E5900332AB7 /* HiOcrSampleTests */,
+			);
+			name = HiOcrSampleTests;
+			packageProductDependencies = (
+			);
+			productName = HiOcrSampleTests;
+			productReference = 483EE98B2D165E5900332AB7 /* HiOcrSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		483EE9942D165E5900332AB7 /* HiOcrSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483EE9A52D165E5900332AB7 /* Build configuration list for PBXNativeTarget "HiOcrSampleUITests" */;
+			buildPhases = (
+				483EE9912D165E5900332AB7 /* Sources */,
+				483EE9922D165E5900332AB7 /* Frameworks */,
+				483EE9932D165E5900332AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483EE9972D165E5900332AB7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				483EE9982D165E5900332AB7 /* HiOcrSampleUITests */,
+			);
+			name = HiOcrSampleUITests;
+			packageProductDependencies = (
+			);
+			productName = HiOcrSampleUITests;
+			productReference = 483EE9952D165E5900332AB7 /* HiOcrSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		483EE9732D165E5800332AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					483EE97A2D165E5800332AB7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					483EE98A2D165E5900332AB7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 483EE97A2D165E5800332AB7;
+					};
+					483EE9942D165E5900332AB7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 483EE97A2D165E5800332AB7;
+					};
+				};
+			};
+			buildConfigurationList = 483EE9762D165E5800332AB7 /* Build configuration list for PBXProject "HiOcrSample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 483EE9722D165E5800332AB7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				486FB8C42D16E00400B3C147 /* XCRemoteSwiftPackageReference "feat_ocr" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 483EE97C2D165E5800332AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				483EE97A2D165E5800332AB7 /* HiOcrSample */,
+				483EE98A2D165E5900332AB7 /* HiOcrSampleTests */,
+				483EE9942D165E5900332AB7 /* HiOcrSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		483EE9792D165E5800332AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483EE9892D165E5900332AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483EE9932D165E5900332AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		483EE9772D165E5800332AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483EE9872D165E5900332AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483EE9912D165E5900332AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		483EE98D2D165E5900332AB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 483EE97A2D165E5800332AB7 /* HiOcrSample */;
+			targetProxy = 483EE98C2D165E5900332AB7 /* PBXContainerItemProxy */;
+		};
+		483EE9972D165E5900332AB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 483EE97A2D165E5800332AB7 /* HiOcrSample */;
+			targetProxy = 483EE9962D165E5900332AB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		483EE99D2D165E5900332AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		483EE99E2D165E5900332AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		483EE9A02D165E5900332AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HiOcrSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q6KE3F287;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HiOcrSample",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to scan credit cards.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harex.HiOcrSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_INTEROP_MODE = objc;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		483EE9A12D165E5900332AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HiOcrSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q6KE3F287;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HiOcrSample",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to scan credit cards.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harex.HiOcrSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_INTEROP_MODE = objc;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		483EE9A32D165E5900332AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Q6KE3F287;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harex.HiOcrSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiOcrSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HiOcrSample";
+			};
+			name = Debug;
+		};
+		483EE9A42D165E5900332AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Q6KE3F287;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harex.HiOcrSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiOcrSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HiOcrSample";
+			};
+			name = Release;
+		};
+		483EE9A62D165E5900332AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Q6KE3F287;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harex.HiOcrSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiOcrSample;
+			};
+			name = Debug;
+		};
+		483EE9A72D165E5900332AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Q6KE3F287;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harex.HiOcrSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiOcrSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		483EE9762D165E5800332AB7 /* Build configuration list for PBXProject "HiOcrSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483EE99D2D165E5900332AB7 /* Debug */,
+				483EE99E2D165E5900332AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483EE99F2D165E5900332AB7 /* Build configuration list for PBXNativeTarget "HiOcrSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483EE9A02D165E5900332AB7 /* Debug */,
+				483EE9A12D165E5900332AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483EE9A22D165E5900332AB7 /* Build configuration list for PBXNativeTarget "HiOcrSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483EE9A32D165E5900332AB7 /* Debug */,
+				483EE9A42D165E5900332AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483EE9A52D165E5900332AB7 /* Build configuration list for PBXNativeTarget "HiOcrSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483EE9A62D165E5900332AB7 /* Debug */,
+				483EE9A72D165E5900332AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		486FB8C42D16E00400B3C147 /* XCRemoteSwiftPackageReference "feat_ocr" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/netcanis/feat_ocr.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		486FB8C52D16E00400B3C147 /* feat_ocr */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 486FB8C42D16E00400B3C147 /* XCRemoteSwiftPackageReference "feat_ocr" */;
+			productName = feat_ocr;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 483EE9732D165E5800332AB7 /* Project object */;
+}
